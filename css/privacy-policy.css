@@ -1,4 +1,58 @@
 /* Privacy Policy Page Styles */
+.static-hero-section {
+    position: relative;
+    height: 290px;
+    background-image: url('https://www.bastionpacific.com.au/Bastion-Pacific-SCA/extensions/jj/BASTION_2021_THEME/20.2.1/img/cat-page-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    overflow: hidden;
+    margin: 30px 60px;
+    border-radius: 25px;
+}
+
+.static-hero-content {
+    z-index: 2;
+    padding-left: 40px;
+}
+
+.static-hero-title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #73929e;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.static-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.static-breadcrumb a {
+    color: #666666;
+    transition: color 0.2s ease;
+}
+
+.static-breadcrumb a:hover {
+    color: #0097b2;
+}
+
+.static-breadcrumb-separator {
+    color: #888888;
+    font-size: 16px;
+}
+
+.static-breadcrumb-current {
+    color: #555555;
+}
 .privacy-policy-container {
     max-width: 1400px;
     margin: 0 auto;

@@ -1,7 +1,7 @@
 /* ================================
-   Hero Section
+   Product Subcategory Page Styles
    ================================ */
-   .hero-section {
+   .product-hero-section {
     position: relative;
     height: 290px;
     background-image: url('https://www.bastionpacific.com.au/Bastion-Pacific-SCA/extensions/jj/BASTION_2021_THEME/20.2.1/img/cat-page-banner.png');
@@ -17,12 +17,12 @@
     border-radius: 25px;
 }
 
-.hero-content {
+.product-hero-content {
     z-index: 2;
     padding-left: 40px;
 }
 
-.hero-title {
+.product-hero-title {
     font-size: 40px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -31,28 +31,28 @@
     letter-spacing: 0.5px;
 }
 
-.breadcrumb {
+.product-breadcrumb {
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 14px;
 }
 
-.breadcrumb a {
+.product-breadcrumb a {
     color: #666666;
     transition: color 0.2s ease;
 }
 
-.breadcrumb a:hover {
+.product-breadcrumb a:hover {
     color: #0097b2;
 }
 
-.breadcrumb-separator {
+.product-breadcrumb-separator {
     color: #888888;
     font-size: 16px;
 }
 
-.breadcrumb-current {
+.product-breadcrumb-current {
     color: #555555;
 }
 
@@ -493,7 +493,7 @@
         gap: 15px;
     }
     
-    .hero-section {
+    .product-hero-section {
         margin: 30px 40px;
         padding: 0 40px;
     }
@@ -513,17 +513,17 @@
 }
 
 @media (max-width: 768px) {
-    .hero-section {
+    .product-hero-section {
         height: 200px;
         margin: 20px 20px;
         padding: 0 30px;
     }
     
-    .hero-content {
+    .product-hero-content {
         padding-left: 20px;
     }
     
-    .hero-title {
+    .product-hero-title {
         font-size: 32px;
     }
     
@@ -633,13 +633,13 @@
 }
 
 @media (max-width: 480px) {
-    .hero-section {
+    .product-hero-section {
         margin: 20px 10px;
         padding: 0 20px;
         height: 160px;
     }
     
-    .hero-title {
+    .product-hero-title {
         font-size: 28px;
     }
     

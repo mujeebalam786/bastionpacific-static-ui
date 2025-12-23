@@ -1,26 +1,33 @@
-
+/* ================================
+   Product Detail Page Styles
+   ================================ */
+   .pd-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+   }
 
 /* Breadcrumb */
-.breadcrumb {
+.pd-breadcrumb {
     padding: 15px 0;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.breadcrumb a {
+.pd-breadcrumb a {
     color: #666;
     text-decoration: none;
 }
 
-.breadcrumb a:hover {
+.pd-breadcrumb a:hover {
     color: #333;
 }
 
-.breadcrumb .separator {
+.pd-breadcrumb .separator {
     margin: 0 10px;
     color: #999;
 }
 
-.breadcrumb span:last-child {
+.pd-breadcrumb span:last-child {
     color: #333;
     font-weight: 500;
 }
@@ -126,7 +133,7 @@
     padding-top: 10px;
 }
 
-.product-title {
+.product-detail-title {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 30px;
     padding-top: 50px;

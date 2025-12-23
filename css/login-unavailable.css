@@ -1,0 +1,113 @@
+.login-unavailable {
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 15px;
+}
+
+.login-unavailable-body {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    min-height: 600px;
+}
+
+/* Left Column - Image Section */
+.login-unavailable-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.lu-image-section {
+    background-color: #f8f5f0;
+    border-radius: 16px;
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lu-man-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.lu-text-section {
+    text-align: left;
+}
+
+.lu-section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+.lu-section-description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #6a6a6a;
+    max-width: 450px;
+}
+
+/* Right Column - Message Section */
+.login-unavailable-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 60px;
+}
+
+.lu-unavailable-message {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .login-unavailable-body {
+        flex-direction: column;
+    }
+
+    .login-unavailable-left {
+        padding: 15px;
+    }
+
+    .lu-image-section {
+        padding: 30px;
+    }
+
+    .login-unavailable-right {
+        padding: 40px 30px;
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-unavailable {
+        margin: 20px auto;
+    }
+
+    .lu-image-section {
+        padding: 20px;
+    }
+
+    .lu-section-title {
+        font-size: 16px;
+    }
+
+    .lu-section-description {
+        font-size: 13px;
+    }
+
+    .login-unavailable-right {
+        padding: 30px 20px;
+    }
+}

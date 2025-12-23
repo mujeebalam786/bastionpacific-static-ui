@@ -66,7 +66,7 @@
     margin: 0 auto;
 }
 
-.products-container {
+.products-subcategory-container {
     display: flex;
     gap: 40px;
 }
@@ -532,7 +532,7 @@
         padding: 30px 20px;
     }
     
-    .products-container {
+    .products-subcategory-container {
         flex-direction: column;
         gap: 30px;
     }

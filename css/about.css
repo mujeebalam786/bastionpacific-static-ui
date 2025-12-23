@@ -12,14 +12,14 @@ body {
     background-color: #fff;
 }
 
-.container {
+.about-container {
     max-width: 970px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 @media (min-width: 1201px) {
-    .container {
+    .about-container {
         max-width: none;
         width: 88%;
     }

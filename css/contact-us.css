@@ -1,0 +1,441 @@
+    /* ========================================
+     HERO SECTION
+     ======================================== */
+  .contact-us-hero-section {
+    position: relative;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://www.bastionpacific.com.au/Bastion-Pacific-SCA/extensions/jj/BASTION_2021_THEME/20.2.1/img/contact-us.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .contact-us-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(30, 42, 58, 0.95) 0%,
+      rgba(30, 42, 58, 0.85) 40%,
+      rgba(30, 42, 58, 0.4) 70%,
+      transparent 100%
+    );
+  }
+  
+  .contact-us-hero-content {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    padding: 4rem 0;
+    animation: contact-us-fadeInUp 0.6s ease-out;
+  }
+  
+  .contact-us-hero-label {
+    display: inline-block;
+    color: #d92121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-us-hero-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-us-hero-description {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+  }
+  
+  /* ========================================
+     CONTACT SECTION
+     ======================================== */
+  .contact-us-section {
+    padding: 5rem 0;
+    background-color: #f1f5f9;
+  }
+  
+  .contact-us-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-us-grid {
+      gap: 5rem;
+    }
+  }
+  
+  /* Form Container */
+  .contact-us-form-container {
+    background: #ffffff;
+    padding: 2rem;
+    box-shadow: 0 20px 60px -10px rgba(0, 0, 0, 0.15);
+    animation: contact-us-fadeInUp 0.6s ease-out 0.1s backwards;
+    max-width: 700px;
+  }
+  
+  .contact-us-form-label-red {
+    display: block;
+    color: #d92121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+  }
+  
+  .contact-us-form-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .contact-us-form-description {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .contact-us-section-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-us-section-title.centered {
+    text-align: center;
+  }
+  
+  .contact-us-section-subtitle {
+    color: #64748b;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form Styles */
+  .contact-us-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-us-form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-us-form-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+  }
+  
+  .contact-us-form-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.60rem;
+  }
+  
+  .contact-us-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-us-form-label {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .contact-us-required {
+    color: #d92121;
+  }
+  
+  .contact-us-form-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.375rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #f3f4f6;
+    transition: all 0.2s ease;
+  }
+  
+  .contact-us-form-input::placeholder {
+    color: #9ca3af;
+  }
+  
+  .contact-us-form-input:focus {
+    /* outline: none;
+    border-color: #d92121;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(217, 33, 33, 0.1); */
+  }
+  
+  .contact-us-form-textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .contact-us-btn-primary {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #d92121;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .contact-us-btn-primary:hover {
+    background-color: #b91c1c;
+  }
+  
+  .contact-us-btn-primary:active {
+    transform: scale(0.98);
+  }
+  
+  /* Contact Info */
+  .contact-us-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    animation: contact-us-fadeInUp 0.6s ease-out 0.2s backwards;
+    justify-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-us-info {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .contact-us-info .contact-us-section-label {
+    grid-column: 1 / -1;
+    text-align: center;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-us-info .contact-us-section-title {
+    margin-bottom: 0.5rem;
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  
+  .contact-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .contact-info-card:hover {
+    box-shadow: 0 8px 30px -8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contact-info-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(217, 33, 33, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #d92121;
+  }
+  
+  .contact-info-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contact-info-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0.25rem;
+    text-align: center;
+  }
+  
+  .contact-info-text {
+    color: #64748b;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .contact-info-text a {
+    color: #64748b;
+  }
+  
+  .contact-info-text a:hover {
+    color: #d92121;
+  }
+  
+  /* ========================================
+     WAREHOUSES SECTION
+     ======================================== */
+  .contact-us-warehouses-section {
+    padding: 5rem 0;
+    background-color: #ffffff;
+  }
+  
+  .contact-us-section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    animation: contact-us-fadeInUp 0.6s ease-out;
+  }
+  
+  .contact-us-section-label {
+    display: inline-block;
+    color: #d92121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-us-warehouses-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .contact-us-warehouses-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-us-warehouses-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .contact-us-warehouse-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: #f1f5f9;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    animation: contact-us-fadeInUp 0.6s ease-out backwards;
+  }
+  
+  .contact-us-warehouse-card:nth-child(1) { animation-delay: 0.1s; }
+  .contact-us-warehouse-card:nth-child(2) { animation-delay: 0.15s; }
+  .contact-us-warehouse-card:nth-child(3) { animation-delay: 0.2s; }
+  .contact-us-warehouse-card:nth-child(4) { animation-delay: 0.25s; }
+  .contact-us-warehouse-card:nth-child(5) { animation-delay: 0.3s; }
+  .contact-us-warehouse-card:nth-child(6) { animation-delay: 0.35s; }
+  
+  .contact-us-warehouse-card:hover {
+    background: #e2e8f0;
+  }
+  
+  .contact-us-warehouse-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 0.5rem;
+    background: rgba(217, 33, 33, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #d92121;
+  }
+  
+  .contact-us-warehouse-content {
+    flex: 1;
+  }
+  
+  .contact-us-warehouse-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0.25rem;
+  }
+  
+  .contact-us-warehouse-address {
+    font-size: 0.875rem;
+    color: #64748b;
+    line-height: 1.5;
+  }
+  
+  /* ========================================
+     ANIMATIONS
+     ======================================== */
+  @keyframes contact-us-fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* ========================================
+     RESPONSIVE ADJUSTMENTS
+     ======================================== */
+  @media (max-width: 767px) {
+    .contact-us-hero-section {
+      background-attachment: scroll;
+    }
+  
+    .contact-us-form-container {
+      padding: 1.5rem;
+    }
+  
+    .contact-us-section,
+    .contact-us-warehouses-section {
+      padding: 3rem 0;
+    }
+  }
+  

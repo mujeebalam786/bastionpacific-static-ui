@@ -1,0 +1,124 @@
+/* Online Conditions of Sale Styles */
+
+.bp-onlinecondtnsale-body-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+}
+
+.bp-onlinecondtnsale-h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.bp-onlinecondtnsale-h1-padg {
+    margin-bottom: 5px;
+}
+
+.bp-mob-txtwidth {
+    margin-bottom: 30px;
+}
+
+.bp-container-full {
+    width: 100%;
+}
+
+.bp-onlinecondtnsale-para-container {
+    margin-bottom: 30px;
+}
+
+.bp-onlinecondtnsale-para {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.bp-onlinecondtnsale-para-padg {
+    margin-top: 15px;
+}
+
+.bp-onlinecondtnsale-points-container {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.bp-onlinecondtnsale-point {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.bp-onlinecondtnsale-para-p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.bp-onlinecondtnsale-para-p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    .bp-onlinecondtnsale-body-container {
+        padding: 30px 15px 60px;
+    }
+    
+    .bp-onlinecondtnsale-h1 {
+        font-size: 24px;
+    }
+    
+    .bp-onlinecondtnsale-point {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bp-onlinecondtnsale-body-container {
+        padding: 25px 15px 50px;
+    }
+    
+    .bp-onlinecondtnsale-h1 {
+        font-size: 22px;
+    }
+    
+    .bp-onlinecondtnsale-point {
+        font-size: 14px;
+    }
+    
+    .bp-onlinecondtnsale-para,
+    .bp-onlinecondtnsale-para-p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bp-onlinecondtnsale-body-container {
+        padding: 20px 12px 40px;
+    }
+    
+    .bp-onlinecondtnsale-h1 {
+        font-size: 20px;
+    }
+    
+    .bp-onlinecondtnsale-point {
+        font-size: 13px;
+    }
+    
+    .bp-onlinecondtnsale-para,
+    .bp-onlinecondtnsale-para-p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    
+    .bp-onlinecondtnsale-points-container {
+        margin-bottom: 20px;
+    }
+}

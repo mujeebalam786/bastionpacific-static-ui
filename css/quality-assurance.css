@@ -1,0 +1,132 @@
+/* Hero Section Background Image for Quality Assurance Page */
+.hero-section {
+    background-image: url('https://www.bastionpacific.com.au/SSP%20Applications/Bastion%20Pacific%20SCA/Development/img/1%20copy@2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.qa-main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
+
+.qa-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.qa-col {
+    box-sizing: border-box;
+}
+
+.qa-col1 {
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+}
+
+.qa-col2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.qa-col3 {
+    display: none;
+}
+
+.qa-image-clss {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qa-sub-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.qa-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.qa-logo-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.qa-logo-1 {
+    height: 70px;
+    width: auto;
+}
+
+.qa-logo-2 {
+    height: 70px;
+    width: auto;
+}
+
+.qa-pdf {
+    margin-left: 25px;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+}
+
+.qa-pdf:hover {
+    opacity: 0.8;
+}
+
+.qa-pdf img {
+    width: 75px;
+    height: auto;
+    margin-left: 25px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .qa-main-container {
+        padding: 40px 15px;
+    }
+
+    .qa-row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .qa-col1 {
+        max-width: 100%;
+    }
+
+    .qa-sub-heading {
+        font-size: 24px;
+    }
+
+    .qa-content {
+        font-size: 13px;
+    }
+
+    .qa-logo-container {
+        justify-content: flex-start;
+    }
+
+    .qa-pdf {
+        margin-left: 15px;
+    }
+
+    .qa-pdf img {
+        margin-left: 15px;
+    }
+}
